@@ -1,0 +1,8 @@
+.git
+.idea
+.env
+.env.*
+target
+*.log
+*.zip
+.DS_Store
