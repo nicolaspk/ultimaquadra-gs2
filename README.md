@@ -36,4 +36,4 @@ Use as credenciais somente no ambiente de execução, nunca nos arquivos ou no G
 ## Links
 
 - **API no Render:** https://ultimaquadra-gs2.onrender.com/api/unidades
-- **Vídeo de demonstração (YouTube, não listado):** https://youtu.be/zag-vELMXRs
+- **Vídeo de demonstração:** https://youtu.be/zag-vELMXRs
