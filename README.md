@@ -6,6 +6,22 @@ API REST desenvolvida com Java e Spring Boot para o ÚltimaQuadra, uma plataform
 
 O backend utiliza Oracle para persistência dos dados e disponibiliza endpoints REST para integração com o Front-End React.
 
+## Integrantes
+
+| Integrante | RM | Turma |
+|---|---|---|
+| Maria Eduarda Escandor | 568216 | 1TDSPO |
+| Erick Menezes | 570325 | 1TDSPF |
+| Maria Eduarda Lopes de Lima | 572425 | 1TDSPO |
+| Matheus Yudi | 571245 | 1TDSPF |
+| Nicolas Sousa | 574141 | 1TDSPH |
+
+## Links do projeto
+
+- [API Java publicada no Render](https://ultimaquadra-gs2.onrender.com/api/unidades)
+- [Front-End React](https://github.com/nicolaspk/ultimaquadra-front-gs2-2026)
+- Vídeo de demonstração no YouTube: **a inserir após a gravação**
+
 ## Tecnologias
 
 - Java 21
@@ -216,7 +232,7 @@ Os erros são tratados globalmente e retornados em formato JSON.
 
 O projeto possui um `Dockerfile` multi-stage, com um estágio Maven para compilação e outro com Java 21 para execução.
 
-A aplicação pode ser publicada no Render utilizando o repositório GitHub.
+A aplicação está publicada no Render a partir do repositório GitHub.
 
 No serviço Render, selecione o ambiente Docker e configure as variáveis:
 
@@ -228,13 +244,13 @@ DB_PASSWORD
 
 As credenciais devem ser cadastradas diretamente nas variáveis de ambiente do serviço.
 
-Após a publicação, os endpoints poderão ser acessados pela URL fornecida pelo Render.
+A API publicada está disponível em `https://ultimaquadra-gs2.onrender.com`, com os endpoints sob `/api`.
 
 ## Integração com o Front-End
 
-A API foi estruturada para integração com o Front-End React do ÚltimaQuadra.
+A API está integrada ao Front-End React do ÚltimaQuadra.
 
-A interface poderá consultar as UBS, visualizar seus trechos, listar ocorrências e enviar novos relatos por meio dos endpoints REST.
+A interface consulta UBS e trechos, lista ocorrências e envia novos relatos pelos endpoints REST.
 
 Os identificadores `unidadeId` e `trechoId` são utilizados na comunicação entre a interface e a API, mantendo os relacionamentos definidos no banco Oracle.
 
